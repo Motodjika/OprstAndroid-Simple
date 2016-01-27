@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="fetch_items_number">50</integer>
+    <integer name="gallery_items">1</integer>
+    <integer name="gallery_items_land">2</integer>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_facebook">fc</string>
+    <string name="share_vk">vk</string>
+    <string name="share_tw">tw</string>
+    <string name="share_ok">ok</string>
+    <string name="share_mailru">mr</string>
+</resources>

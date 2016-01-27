@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/gradient"
+        android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal"
+            android:background="@color/header">
+            <ImageButton
+                android:id="@+id/logo"
+                android:src="@mipmap/logo"
+                android:background="@color/header"
+                android:layout_width="118dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/logo_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/header_button"
+                android:layout_margin="0dp"
+                android:background="@color/header"
+                android:layout_gravity="center_horizontal"
+                android:elegantTextHeight="true"
+                android:ellipsize="none"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="0dp"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                tools:targetApi="ice_cream_sandwich" />
+
+
+        </LinearLayout>
+
+        <include  layout="@layout/activity_collection_title_buttons"
+                  android:id="@+id/title_buttons_landscape"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/pbHeaderProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        >
+    </ProgressBar>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/page_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:layout_margin="5dp" />
+
+        <include  layout="@layout/sharebutton" android:id="@+id/idShareButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal|right"
+            android:layout_margin="0dp"
+            android:visibility="gone"/>
+
+</LinearLayout>

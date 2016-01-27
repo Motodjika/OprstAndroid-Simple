@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:gravity="center|center_horizontal"
+    android:layout_gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/begin_pager_button"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/prev_pager_button"
+        android:src="@drawable/prev"
+        android:background="#00ffffff"
+        android:foregroundGravity="left"
+        android:layout_gravity="left|bottom|center"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/navigation_pager_count"
+        android:gravity="center"
+        android:inputType="number"
+        android:imeOptions="actionGo"
+        android:layout_margin="0dp"
+        android:layout_gravity="bottom|center_horizontal" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_pager_button"
+        android:src="@drawable/next"
+        android:background="#00ffffff"
+        android:layout_marginRight="0dp"
+        android:foregroundGravity="right"
+        android:layout_gravity="bottom|center|right"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/end_pager_button"
+        android:visibility="invisible" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="hello_world">Привет мир!</string>
+    <string name="available_network_message">Сеть недоступна</string>
+    <string name="error_rating_message">Ваш голос уже учтён</string>
+    <string name="error_video_gallery_message">Ошибка получения данных</string>
+    <string name="error_data_obtaining">Данных по запросу не найдено</string>
+    <string name="error_player">Ошибка инициализации ютуб проигрывателя (%1$s)</string>
+    <string name="image_description">Превью</string>
+    <string name="start">Сервис запущен</string>
+    <string name="stop">Сервис остановлен</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">OPRST</string>
+    <string name="action_settings">Default</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_photo_gallery">PhotoGalleryActivity</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="video_grid_title">VidOS</string>
+    <string name="photo_grid_title">PhotOS</string>
+    <string name="video_grid_tag">VidOS</string>
+    <string name="photo_grid_tag">PhotOS</string>
+    <string name="text_tab_header">OPRST</string>
+    <string name="comment_up_button">+</string>
+    <string name="comment_down_button">-</string>
+    <string name="available_network_message">Network is unreachable</string>
+    <string name="error_rating_message">Your vote has been already count</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="button_nav_superior">Very superior</string>
+    <string name="button_nav_projects">Projects-yejects</string>
+    <string name="button_nav_advertising">Advertising and Partners</string>
+    <string name="button_nav_events">Events and so-so</string>
+    <string name="button_nav_us">Kind of us</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ОПРСТ</string>
+    <string name="header_button">Интернет-канал вашего города</string>
+    <string name="look_us">Следишь за нами?</string>
+    <string name="video_grid_title">ВидOS</string>
+    <string name="photo_grid_title">ФотOS</string>
+    <string name="video_grid_tag">ВидOS</string>
+    <string name="photo_grid_tag">ФотOS</string>
+    <string name="text_tab_header">ОПРСТ</string>
+    <string name="Photos">ФотОS</string>
+    <string name="Vidos">ВидOS</string>
+    <string name="title_activity_photo_gallery">Фото галерея</string>
+    <string name="button_nav_superior">Очень \n главная</string>
+    <string name="button_nav_projects">Проекты-\n уекты</string>
+    <string name="button_nav_advertising">Реклама и \n партнёры</string>
+    <string name="market_button">Реклама</string>
+    <string name="partners_button">Партнеры</string>
+    <string name="button_nav_events">События и \n так себе</string>
+    <string name="button_nav_us">Типо о \n нас</string>
+    <string name="action_settings">По-умолчанию</string>
+    <string name="menu_settings">Опции</string>
+    <string name="search">Поиск</string>
+    <string name="clear_search">Очистить поиск</string>
+    <string name="pager_go">Перейти</string>
+    <string name="page_separator1">-</string>
+    <string name="page_separator2">/</string>
+    <string name="comment_up_button">+</string>
+    <string name="comment_down_button">-</string>
+    <string name="nav_left">&lt;</string>
+    <string name="nav_right">&gt;</string>
+</resources>

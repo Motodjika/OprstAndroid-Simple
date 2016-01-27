@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:weightSum="5"
+            android:padding="5dp">
+            <Button
+                android:background="@drawable/project_no_comments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_no_comments_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+            <Button
+                android:background="@drawable/project_interview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_interview_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+            <Button
+                android:background="@drawable/project_our_videos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_our_videos_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+            <Button
+                android:background="@drawable/project_cultural_life"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_cultural_life_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+
+            <Button
+                android:background="@drawable/project_work_well_together"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_work_well_together_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_no_comments"
+                android:id="@+id/project_no_comments_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_interview"
+                android:id="@+id/project_interview_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_our_videos"
+                android:id="@+id/project_our_videos_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_cultural_life"
+                android:id="@+id/project_cultural_life_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_work_well_together"
+                android:id="@+id/project_work_well_together_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:padding="5dp">
+
+
+        <Button
+                android:background="@drawable/project_soon_exaggerate_soon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_soon_exaggerate_soon_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+        <Button
+            android:background="@drawable/project_virtual_tours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_virtual_tours_image"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+        <Button
+            android:background="@drawable/project_developments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_developments_image"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <Button
+            android:background="@drawable/project_baby_surprise"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_baby_surprise_image"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <Button
+            android:background="@drawable/project_full_version"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_full_version_image"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_soon_exaggerate_soon"
+                android:id="@+id/project_soon_exaggerate_soon_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_virtual_tours"
+            android:id="@+id/project_virtual_tours_text"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_developments"
+            android:id="@+id/project_developments_text"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_baby_surprise"
+            android:id="@+id/project_baby_surprise_text"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_full_version"
+            android:id="@+id/project_full_version_text"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:padding="5dp">
+
+        <Button
+            android:background="@drawable/project_commercial_break"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_commercial_break_image"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+        <Button
+            android:background="@drawable/project_this_is_mariupol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_this_is_Mariupol_image"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <Button
+            android:background="@drawable/project_video_klq"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_video_KVN_image"
+            android:layout_margin="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <Button
+                android:background="@drawable/project_video_reports"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_video_reports_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+
+        <Button
+                android:background="@drawable/project_night_clubs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_night_clubs_image"
+                android:layout_margin="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_commercial_break"
+            android:id="@+id/project_commercial_break_text"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_this_is_mariupol"
+            android:id="@+id/project_this_is_Mariupol_text"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_video_klq"
+            android:id="@+id/project_video_KVN_text"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_video_reports"
+                android:id="@+id/project_video_reports_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/project_night_clubs"
+                android:id="@+id/project_night_clubs_text"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_margin="0dp"
+                android:foregroundGravity="center_vertical|center|center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:padding="5dp">
+
+        <Button
+            android:background="@drawable/project_slag_blog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_slag_blog_image"
+            android:layout_margin="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <Button
+            android:background="@drawable/project_the_top_nine_and_three_quarter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/project_the_top_nine_and_three_quarters_image"
+            android:layout_margin="0dp"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <Button
+                android:background="@drawable/project_obviousness"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_obviousness_image"
+                android:layout_margin="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"
+                android:gravity="center"
+                android:padding="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_slag_blog"
+            android:id="@+id/project_slag_blog_text"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_the_top_nine_and_three_quarters"
+            android:id="@+id/project_the_top_nine_and_three_quarters_text"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/project_obviousness"
+            android:id="@+id/project_obviousness_text"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

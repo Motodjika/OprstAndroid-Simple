@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="project_no_comments">NO COMMENTS</string>
+    <string name="project_interview">ИНТЕРВЬЮ</string>
+    <string name="project_our_videos">НАШИ РОЛИКИ</string>
+    <string name="project_cultural_life">КУЛЬТУРНАЯ ЖИЗНЬ</string>
+    <string name="project_work_well_together">СРАБОТАЕМСЯ</string>
+    <string name="project_soon_exaggerate_soon">СКОРО-ПРЕСКОРО</string>
+    <string name="project_virtual_tours">ВИРТУАЛЬНЫЕ ЭКСКУРСИИ</string>
+    <string name="project_developments">СОБЫТИЯ</string>
+    <string name="project_baby_surprise">ДЕТСКАЯ НЕОЖИДАННОСТЬ</string>
+    <string name="project_full_version">ПОЛНАЯ ВЕРСИЯ</string>
+    <string name="project_commercial_break">РЕКЛАМНАЯ ПАУЗА</string>
+    <string name="project_this_is_mariupol">ЭТО МАРИУПОЛЬ, ДЕТКА</string>
+    <string name="project_video_klq">ВИДЕО КВН</string>
+    <string name="project_video_reports">ВИДЕООТЧЁТЫ</string>
+    <string name="project_night_clubs">НОЧНЫЕ КЛУБЫ</string>
+    <string name="project_slag_blog">ШЛАКОБЛОГ</string>
+    <string name="project_the_top_nine_and_three_quarters">ТОП 9 3/4</string>
+    <string name="project_obviousness">ОЧЕВИДНОСТЬ</string>
+</resources>

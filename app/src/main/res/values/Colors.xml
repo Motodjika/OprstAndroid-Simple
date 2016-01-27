@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#0000ff</color>
+    <color name="gray">#CCD4DF</color>
+    <color name="footer">#ffce54</color>
+    <color name="header">#ec6c6a</color>
+    <color name="nav_text">#CCD4DF</color>
+    <color name="nav_text_sel">#ffce54</color>
+    <color name="white">#ffffff</color>
+</resources>

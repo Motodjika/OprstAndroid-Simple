@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wemap">Мы на карте</string>
+    <string name="our_address">Мы находимся по адрессу</string>
+    <string name="address">ул. Энгельска, 26 (ор-р "Кишеня")</string>
+    <string name="email">Наш email</string>
+    <string name="our_email1">1oprst@ukr.net</string>
+    <string name="our_email2">reklama@oprst.com.ua</string>
+    <string name="telephone">Наши телефоны</string>
+    <string name="departmentclient">Отдел по работе с клиентами:</string>
+    <string name="mobphone1">(096)96-056-73</string>
+    <string name="mobphone2">(097)731-41-41</string>
+    <string name="order">Заказ видео съемки (студио, клип, репортаж, full-version, online-трансляция)</string>
+    <string name="develop">Телефоны разработчиков</string>
+    <string name="phone_dev">(097)220-51-04</string>
+</resources>
